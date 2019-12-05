@@ -1,4 +1,5 @@
 # My config repo
+To use it, first `git pull`, then `git submodule update --init --recursive`
 
 ## zsh config
 My oh-my-zsh config is in the [zsh](https://github.com/novate/oh-my-rc/tree/master/zsh) directory.
