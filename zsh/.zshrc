@@ -89,19 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# alias hp="export http_proxy=10.0.75.1:12345 && export https_proxy=10.0.75.1:12345 && echo \"HTTP and HTTPS proxy set. To check IP, use ip command\""
-
-# Check IP address.
-alias ip="curl ip.gs"
+# Set personal aliases
 
 # Set gpg tty.
 export GPG_TTY=$(tty)
@@ -128,3 +116,6 @@ myProxy(){
 
 echo "To set HTTP and HTTPS proxy, use hp command."
 alias hp=myProxy
+
+# Check IP address.
+alias ip="curl ip.gs"
