@@ -16,7 +16,7 @@ set softtabstop=2
 " Add line numbers
 set number
 set relativenumber
-" set cursorline " solarized colorscheme does not support this.
+set cursorline 
 :hi CursorLine cterm=NONE ctermbg=darkblue ctermfg=white guibg=darkblue ctermfg=white
 
 " Automatically indent when starting new lines in code blocks
@@ -32,7 +32,3 @@ set hlsearch
 " Move vertically by visual line
 nnoremap j gj
 nnoremap k gk
-nnoremap B ^
-nnoremap E $
-nnoremap $ <nop>
-nnoremap ^ <nop>
