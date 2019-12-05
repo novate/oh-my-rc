@@ -102,7 +102,7 @@ assignProxy(){
    done
  }
 
- clrProxy(){
+clrProxy(){
     for envar in http_proxy ftp_proxy https_proxy all_proxy HTTP_PROXY HTTPS_PROXY FTP_PROXY ALL_PROXY
     do
        unset $envar
@@ -114,8 +114,9 @@ myProxy(){
   assignProxy $proxy_value
 }
 
-echo "To set HTTP and HTTPS proxy, use hp command."
+echo "To set proxy, use hp command. To clear proxy, use clrp command."
 alias hp=myProxy
+alias clrp=clrProxy
 
 # Check IP address.
 alias ip="curl ip.gs"
