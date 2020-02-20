@@ -110,7 +110,9 @@ clrProxy(){
  }
 
 myProxy(){
-  proxy_value="http://10.0.75.1:12345"
+  # change the proxy value here.
+  # for docker containers, use host.docker.internal
+  proxy_value="localhost:1086"
   assignProxy $proxy_value
 }
 
